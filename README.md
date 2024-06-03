@@ -23,30 +23,30 @@
 
 <ul>
 Admin Module -> 
-                <li>dashboard.php</li>
-                <li>admin-profile.php</li>
+<li>dashboard.php</li>
+<li>admin-profile.php</li>
                 
-                <li><b>manage-blog.php</b></li>
-                    <li>add-blog.php</li>
-                    <li>edit-blog.php</li>
-                    <li>delete-blog.php</li>
+<li><b>manage-blog.php</b></li>
+    <li>add-blog.php</li>
+    <li>edit-blog.php</li>
+    <li>delete-blog.php</li>
 
-                <li><b>manage-user.php</b></li>
-                    <li>edit-category.php</li>
-                    <li>delete-category.php</li>
+<li><b>manage-user.php</b></li>
+    <li>edit-category.php</li>
+    <li>delete-category.php</li>
 
-                <li><b>manage-blogger.php</b></li>
-                    <li>add-blogger.php</li>
-                    <li>edit-bloger.php</li>
-                    <li>remove-bloger.php</li>
-                    <li>delete-bloger.php</li>
+<li><b>manage-blogger.php</b></li>
+    <li>add-blogger.php</li>
+    <li>edit-bloger.php</li>
+    <li>remove-bloger.php</li>
+    <li>delete-bloger.php</li>
 
-                <li><b>manage-category.php</b></li>
-                    <li>add-category.php</li>
-                    <li>edit-category.php</li>
-                    <li>delete-category.php</li>
+<li><b>manage-category.php</b></li>
+    <li>add-category.php</li>
+    <li>edit-category.php</li>
+    <li>delete-category.php</li>
 
-                <li>logout.php</li>
+<li>logout.php</li>
 
 </ul>
 
@@ -80,3 +80,27 @@ notification -> notification_id(PRIMATY), notification_title(Become Blogger),
                 notification_status(pending, approve, reject), user_id(reference from users table), 
                 notification_show(0, 1), create_notification_data, update_notification_data
 
+
+---------------------------------------------------->
+
+<h2>How to run the Today's Time Project</h2>
+<ol>
+    <li>Download the zip file</li>
+    <li>Extract the file and copy today's_time folder</li>
+    <li>Paste inside root directory(for xampp, xampp/htdocs, for wamp, wamp/www, for lamp, var/www/Html)</li>
+    <li>Open PHPMyAdmin (http://localhost/phpmyadmin)</li>
+    <li>Create a database with name today_s_time_db</li>
+    <li>Import today_s_time_db.sql file(given inside the zip package in SQL file folder)</li>
+    <li>Run the script http://localhost/today's_time (frontend)</li>
+    <li>For admin panel http://localhost/today's_time/admin (admin panel)</li>
+</ol>
+
+<ul>Credential for admin panel :
+    <li>useremail: admin@gmail.com</li>
+    <li>Password: 12345</li>
+</ul>
+
+<ul>Credential for user panel :
+    <li>useremail: demo@gmail.com</li>
+    <li>Password: 12345</li>
+</ul>
